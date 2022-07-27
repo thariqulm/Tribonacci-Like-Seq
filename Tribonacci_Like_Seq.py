@@ -1,5 +1,4 @@
-from sympy import *
-import cmath
+from sympy import symbols,pprint,Pow
 print("Enter three numbers p,q & r to generate the sequence as follow \n f(n)= p*f(n-1) + q*f(n-2) + r*f(n-3) \n 4th term in Seq = p x 3rd term in Seq + q x 2nd term in Seq + r x 1st term in Seq")
 p=float(input(" p = "))
 q=float(input(" q = "))
